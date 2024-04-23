@@ -18,7 +18,7 @@ public class ButtonSignUp : MonoBehaviour
     }
     void Start()
     {
-        Debug.Log(FirebaseAuth.DefaultInstance.CurrentUser.Email);
+        //Debug.Log(FirebaseAuth.DefaultInstance.CurrentUser.Email);
         _registrationButton.onClick.AddListener(HandleRegisterButtonClicked);
         mDatabaseRef = FirebaseDatabase.DefaultInstance.RootReference;
     }

@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     [SerializeField] private GameObject _gameOverCanvas;
+    [SerializeField] private GameObject _scoreCanvas;
     private void Awake()
     {
         if (instance == null)
@@ -19,6 +20,7 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         _gameOverCanvas.SetActive(true);
+        _scoreCanvas.SetActive(false);
 
         Score.instance.SetHighestScore();//aca
 

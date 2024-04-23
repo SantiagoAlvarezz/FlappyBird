@@ -94,16 +94,14 @@ public class Score : MonoBehaviour
             else if (task.IsCompleted)
             {
                 DataSnapshot snapshot = task.Result;
-                //var userDoc;
+                
                 foreach (var userDoc in (Dictionary<string, object>)snapshot.Value)
                 {
                     var userObject = ((Dictionary<string, object>)userDoc.Value);
-                    //nameText.text = ((Dictionary<string, object>)userDoc.Value)["username"].ToString();
-                    //nameText.text = "" + userObject["username"];
+                    
                     _currentScoreText.text = "" + userObject["score"];
 
-                    //testTexts.Add = "" + userObject["username"] + ":" + userObject["score"];
-                    //testText.text = "Hola";
+                   
 
                     Debug.Log("LEADERBOARD: " + userObject["username"] + " : " + userObject["score"]);
                     for (int i = 0; i < ((Dictionary<string, object>)snapshot.Value).Count; i++)
