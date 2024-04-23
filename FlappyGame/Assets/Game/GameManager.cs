@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour
     {
         _gameOverCanvas.SetActive(true);
 
+        Score.instance.SetHighestScore();//aca
+
         Time.timeScale = 0;
     }
     public void RestartGame()
