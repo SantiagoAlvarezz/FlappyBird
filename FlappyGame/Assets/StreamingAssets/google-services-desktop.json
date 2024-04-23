@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "239774241559",
+    "firebase_url": "https://flappybird-178a1-default-rtdb.firebaseio.com",
+    "project_id": "flappybird-178a1",
+    "storage_bucket": "flappybird-178a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:239774241559:android:2ba4e0170a57c64622dd52",
+        "android_client_info": {
+          "package_name": "com.ezalvarez.flappybird"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD04QHRY15B35eldRSSWtMBrzZiLH6BV_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
